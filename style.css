@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    color: rgb(218, 5, 5);
+}
+
+.green {
+    color: rgb(3, 109, 3);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 5px 40px;
+}
+
+.logoImg img {
+    width: 60px;
+}
+
+.logoName {
+    position: relative;
+    right: 20px;
+    color: rgb(6, 6, 128);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+}
+
+.search {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid rgb(227, 227, 243);
+    background-color: rgb(239, 239, 246);
+}
+
+.search i {
+    width: 30px;
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+.signUp,
+.signIn {
+    border: 2px solid black;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact {
+    cursor: pointer;
+}
+
+.points {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 1px;
+}
+
+.image1 img {
+    width: 80px;
+}
+
+.companyLogo {
+    display: flex;
+    background-color: rgb(232, 243, 249);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+
+}
+
+.infoList {
+    display: flex;
+    color: white;
+}
+
+.side1 {
+    background-color: rgb(3, 3, 81);
+    /* display: none; */
+
+}
+
+.disForum {
+    background-color: rgb(1, 1, 51);
+    margin: 15px 0px 0px 0px;
+    padding: 3px;
+}
+
+.user,
+.marketStories {
+    padding-top: 15px;
+}
+
+.user span,
+.disForum span,
+.marketStories span {
+    padding: 10px;
+}
+
+.infoGap {
+    padding-top: 15px;
+    padding-left: 48px;
+}
+
+.hide {
+    height: 60px;
+    background-color: rgb(3, 3, 81);
+    display: flex;
+    align-items: center;
+    padding: 10px 6px;
+    border-radius: 2px;
+    position: relative;
+    top: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.disRes {
+    position: relative;
+    left: 20px;
+}
+
+.discussionForum {
+    padding: 15px 0px 0px 0px;
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.maxWidth {
+    margin-left: 55px;
+}
+
+.sector {
+    width: 600px;
+    border: 2px solid rgb(238, 245, 200);
+    border-radius: 5px;
+    background-color: rgb(246, 250, 223);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sec1 {
+    background-color: rgb(172, 4, 4);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+.sec2 {
+    background-color: rgb(4, 35, 172);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+.sec3 {
+    background-color: rgb(229, 206, 32);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+.secSearch input {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid rgb(227, 227, 243);
+    background-color: rgb(216, 216, 222);
+}
+
+.secSearch i {
+    font-size: 14px;
+    width: 1px;
+    position: relative;
+    left: 7px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.sector1,
+.sector2,
+.sector3 {
+    margin-top: 10px;
+    width: 600px;
+    border: 2px solid rgb(238, 245, 200);
+    border-radius: 5px;
+    background-color: rgb(246, 250, 223);
+    padding: 10px;
+}
+
+.marRes {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.minAgo {
+    position: relative;
+    left: 500px;
+    font-size: 15px;
+    color: rgb(5, 5, 128);
+}
+
+.secImage img {
+    width: 300px;
+}
+
+.logoSec1 {
+    display: flex;
+}
+
+.logoSecName1 {
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    right: 70px;
+}
+
+.logoSecName2 {
+    position: relative;
+    top: 40px;
+    right: 70px;
+}
+
+.logoSecName3 {
+    font-size: 30px;
+
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+
+}
+
+.sec1head span {
+    padding: 10px;
+}
+
+.sec1head span i {
+    background-color: rgb(117, 43, 3);
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(242, 186, 186);
+}
+
+.loremGap {
+    margin: 20px 60px;
+}
+
+.viewers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fig1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdTrUu0wND_vd3HW3tvVXl5D60HEZ61q4uIbwMKcplQA&s);
+    height: 200px;
+    margin: 20px 5px;
+    background-size: cover;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.fig2 {
+    background-image: url(https://www.shutterstock.com/image-photo/low-angle-view-skyscrapers-shenzhenchina-260nw-526689706.jpg);
+    height: 200px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.figText {
+    background-color: rgb(70, 69, 69);
+    opacity: 0.5;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+
+    top: 130px;
+}
+
+.fig2 i {
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    left: 260px;
+    color: rgb(5, 5, 97);
+}
+
+.vanish2 {
+    display: none;
+}
+
+.scroll {
+    height: 750px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.logoName2 {
+    font-size: 10px;
+}
+
+.headImg {
+    display: none;
+}
+
+.fix {
+    display: flex;
+}
+
+.displayResAdd {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+
+    /* .maxWidth{
+        display: none;
+     } */
+    .block {
+        display: none;
+    }
+    .hide {
+        /* display: none; */
+        position: relative;
+        left: 0px;
+        z-index: 1;
+    }
+
+    .side1 {
+
+        display: none;
+    }
+
+    .vanish {
+        display: none;
+    }
+
+    .infoList {
+        z-index: 1;
+        position: relative;
+        bottom: 68px;
+        left: 1px;
+        height: 760px;
+    }
+
+    /* .discussionForum{
+        position: absolute;
+        top: 80;
+        left: 0px;
+    } */
+    .fix {
+        position: absolute;
+        top: 115px;
+        left: 0px;
+    }
+
+    /* .block{
+        position: absolute;
+        top: 80px;
+        left: 0px;;
+    } */
+    .image1 img {
+        width: 50px;
+        height: 50px;
+        font-size: 5px;
+        border: 2px solid red;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    body {
+        width: 360px;
+        height: 350px;
+        overflow-x: hidden;
+    }
+
+    .logoImg img {
+        width: 40px;
+    }
+
+    .logoName {
+        font-size: 8px;
+        position: relative;
+        right: 12px;
+    }
+
+    .logoName2 {
+        font-size: 4px;
+    }
+
+    .menu {
+        display: none;
+
+    }
+
+    .search input {
+        width: 170px;
+        position: relative;
+        right: 20px;
+    }
+
+    .search i {
+        position: relative;
+        right: 43px;
+    }
+
+    .headImg {
+        display: block;
+    }
+
+    .headImg i {
+        background-color: rgb(117, 43, 3);
+        padding: 5px;
+        border-radius: 50%;
+        color: rgb(242, 186, 186);
+        font-size: 10px;
+        position: relative;
+        top: 17px;
+        right: 19px;
+    }
+
+    .points {
+        font-size: 10px;
+    }
+
+    .points div {
+        padding: 0px 15px;
+    }
+
+    .res1 {
+        display: none;
+    }
+
+    .companyLogo {
+        background-color: #fff;
+
+    }
+
+    .disRes {
+        width: 184px;
+        font-size: 13px;
+        background-color: rgb(1, 1, 58);
+        color: white;
+        padding: 10px 2px;
+        text-align: center;
+        position: relative;
+        left: 5px;
+        border-bottom: 2px solid red;
+    }
+
+    .marRes {
+        width: 184px;
+        font-size: 13px;
+        background-color: rgb(4, 4, 92);
+        color: white;
+        padding: 10px 2px;
+        position: relative;
+        /* bottom: 51px; */
+        right: 221px;
+        text-align: center;
+    }
+
+    .maxWidth {
+        position: relative;
+        left: 20px;
+    }
+
+    .filRes {
+        color: rgb(2, 2, 76);
+    }
+
+
+    .scroll {
+        overflow: visible;
+    }
+
+    .sector {
+        width: 300px;
+        position: relative;
+        right: 40px;
+        height: 20px;
+    }
+
+    .sec1,
+    .sec2,
+    .sec3 {
+        font-size: 8px;
+        padding: 5px 12px;
+        border-radius: 40px;
+        height: 13px;
+    }
+
+    .secSearch input {
+        font-size: 9px;
+        border-radius: 40px;
+        width: 88px;
+        height: 3px;
+        position: relative;
+        bottom: 3px;
+
+    }
+
+    .secSearch i {
+        font-size: 11px;
+        position: absolute;
+        left: 187px;
+        top: 15px;
+        z-index: 1;
+    }
+
+    .filRes {
+        font-size: 15px;
+        position: relative;
+        right: 38px;
+    }
+
+    .sector1,
+    .sector2,
+    .sector3 {
+        width: 300px;
+
+        position: relative;
+        right: 40px;
+    }
+
+    .minAgo {
+        position: absolute;
+        left: 270px;
+        top: 3px;
+        font-size: 10px;
+        color: rgb(5, 5, 128);
+    }
+
+    .secImage img {
+        width: 125px;
+        position: relative;
+        left: 28px;
+    }
+
+    .logoSecName1 {
+        font-size: 18px;
+        position: relative;
+        top: 18px;
+        right: 0px;
+    }
+
+    .logoSecName2 {
+        font-size: 14px;
+        position: relative;
+        top: 14px;
+        left: 5px;
+    }
+
+    .logoSecName3 {
+        font-size: 12px;
+
+        position: relative;
+        bottom: 17px;
+        left: 73px;
+
+    }
+
+    .sec1head span {
+        padding: 3px;
+    }
+
+    .sec1head span i {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .loremRes {
+        font-size: 12px;
+    }
+
+    .loremGap {
+        margin: 20px 20px;
+        font-size: 12px;
+    }
+
+    .viewers {
+        font-size: 12px;
+    }
+
+    .displayResAdd {
+        display: block;
+        font-size: 10px;
+
+        position: absolute;
+        top: 80px;
+        left: 280px;
+        font-size: 40px;
+        color: rgb(1, 1, 62);
+    }
+
+    #viewRes {
+        display: none;
+    }
+
+    .block {
+        position: relative;
+        right: 150px;
+        top: 0px;
+    }
+
+
+}
